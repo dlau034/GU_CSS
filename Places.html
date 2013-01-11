@@ -2,7 +2,7 @@
 <html>
     <head>
     		<meta charset="utf-8">
-    	    <title>Dining</title>
+    	    <title>Places</title>
     	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     	    <meta name="description" content="">
     	    <meta name="author" content="">
@@ -14,6 +14,7 @@
     	        padding-top: 60px;
     	        padding-bottom: 0px;
     	      }
+
         	</style>
     	    <link href="css/bootstrap-responsive.css" rel="stylesheet">
           <link rel="Stylesheet" type="text/css" href="css/search.css"/>
@@ -53,8 +54,8 @@
           <a class="brand" href="index.html">GatheringUP</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="Dining.html">Dining</a></li>
-              <li><a href="Places.html">Places</a></li>
+              <li><a href="Dining.html">Dining</a></li>
+              <li class="active"><a href="Places.html">Places</a></li>
               <li><a href="Events.html">Events</a></li>
               <li><a href="#Datebook">Datebook</a></li>
               <li class="dropdown">
@@ -82,28 +83,32 @@
 <div class="container">
   <div class="row">
     <div class="sideBar span3">
-        <h2>Food Search</h2>
-        <div class="foodSearch">
+        <h2>Places Search</h2>
+        <div class="placeSearch">
           <form>
             <fieldset>
-              <input class="SearchForm" type="text" placeholder="Restaurant Name">
-              <input class="SearchForm" type="text" placeholder="Category">
-              <input class="SearchForm" type="text" placeholder="Neighbourhood">
-              <button class="btn btn-large btn-blue btn-search" type="submit" class="btn">Search</button>
+              <input class="SearchForm" type="text" placeholder="Pick a Place">
+              <input class="SearchForm" type="text" placeholder="Neighbourhood in NYC">
+              <button class="btn btn-large btn-blue btn-search" type="submit" class="btn">Find It!</button>
             </fieldset>
           </form>
         </div>
-        <div class="feelLuck">
+        <h2>National Search</h2>
+        <div class="nationalSearch">
           <form>
             <fieldset>
-              <input class="SearchForm" type="text" placeholder="Neighbourhood">
-              <button class="btn btn-large btn-blue btn-search" type="submit" class="btn">Feeling Lucky?</button>
+              <input class="SearchForm" type="text" placeholder="Pick a Place">
+              <input class="SearchForm" type="text" placeholder="Pick a City">
+              <input class="SearchForm" type="text" placeholder="Zip Code (Optional)">
+              <input class="SearchForm" type="text" placeholder="County (Optional)">
+              <input class="SearchForm" type="text" placeholder="State (Optional)">
+              <button class="btn btn-large btn-blue btn-search" type="submit" class="btn">Find It!</button>
             </fieldset>
           </form>
         </div>
   </div>
 
-  <div class="sideBar span4">
+<div class="sideBar span4">
         <h2>What's Around Here?</h2>
 
     <!--Result Module -->
@@ -113,12 +118,12 @@
     <div style="float: right;" id="2241938"></div>
     <b>
     <a href="javascript:void(0);" onclick="restaurantdetails(2241938)">
-    CAFE BASIL GOURMET</a>
+    Aguilar Branch New York Public Library </a>
     </b>
     <br>
-    762-764 3 AVENUE<br>
-    MANHATTAN, NY<br>
-    American (New)<br>
+    180 E 110th St<br>
+    New York, NY<br>
+    Libraries<br>
 
     <div class="actions">
     <a href="javascript:void(0);" onclick="loginpopup('#')">
@@ -134,12 +139,33 @@
     <div style="float: right;" id="2241938"></div>
     <b>
     <a href="javascript:void(0);" onclick="restaurantdetails(2241938)">
-    CAFE BASIL GOURMET</a>
+    Aguilar Branch New York Public Library </a>
     </b>
     <br>
-    762-764 3 AVENUE<br>
-    MANHATTAN, NY<br>
-    American (New)<br>
+    180 E 110th St<br>
+    New York, NY<br>
+    Libraries<br>
+
+    <div class="actions">
+    <a href="javascript:void(0);" onclick="loginpopup('#')">
+    <img src="img/gtk-bookmark.png" width="30" align="bottom">Bookmark</a>
+    <a href="/food/create?idplace=2257308">
+    <img src="img/gtk-save.png" width="30" align="bottom">Create Event</a>
+    </div>
+    </div>
+
+    <!--Result Module -->
+
+        <div class="solidbox">
+    <div style="float: right;" id="2241938"></div>
+    <b>
+    <a href="javascript:void(0);" onclick="restaurantdetails(2241938)">
+    Aguilar Branch New York Public Library </a>
+    </b>
+    <br>
+    180 E 110th St<br>
+    New York, NY<br>
+    Libraries<br>
 
     <div class="actions">
     <a href="javascript:void(0);" onclick="loginpopup('#')">
@@ -155,12 +181,33 @@
     <div style="float: right;" id="2241938"></div>
     <b>
     <a href="javascript:void(0);" onclick="restaurantdetails(2241938)">
-    CAFE BASIL GOURMET</a>
+    Aguilar Branch New York Public Library </a>
     </b>
     <br>
-    762-764 3 AVENUE<br>
-    MANHATTAN, NY<br>
-    American (New)<br>
+    180 E 110th St<br>
+    New York, NY<br>
+    Libraries<br>
+
+    <div class="actions">
+    <a href="javascript:void(0);" onclick="loginpopup('#')">
+    <img src="img/gtk-bookmark.png" width="30" align="bottom">Bookmark</a>
+    <a href="/food/create?idplace=2257308">
+    <img src="img/gtk-save.png" width="30" align="bottom">Create Event</a>
+    </div>
+    </div>
+
+    <!--Result Module -->
+
+        <div class="solidbox">
+    <div style="float: right;" id="2241938"></div>
+    <b>
+    <a href="javascript:void(0);" onclick="restaurantdetails(2241938)">
+    Aguilar Branch New York Public Library </a>
+    </b>
+    <br>
+    180 E 110th St<br>
+    New York, NY<br>
+    Libraries<br>
 
     <div class="actions">
     <a href="javascript:void(0);" onclick="loginpopup('#')">
@@ -176,12 +223,33 @@
     <div style="float: right;" id="2241938"></div>
     <b>
     <a href="javascript:void(0);" onclick="restaurantdetails(2241938)">
-    CAFE BASIL GOURMET</a>
+    Aguilar Branch New York Public Library </a>
     </b>
     <br>
-    762-764 3 AVENUE<br>
-    MANHATTAN, NY<br>
-    American (New)<br>
+    180 E 110th St<br>
+    New York, NY<br>
+    Libraries<br>
+
+    <div class="actions">
+    <a href="javascript:void(0);" onclick="loginpopup('#')">
+    <img src="img/gtk-bookmark.png" width="30" align="bottom">Bookmark</a>
+    <a href="/food/create?idplace=2257308">
+    <img src="img/gtk-save.png" width="30" align="bottom">Create Event</a>
+    </div>
+    </div>
+
+    <!--Result Module -->
+
+        <div class="solidbox">
+    <div style="float: right;" id="2241938"></div>
+    <b>
+    <a href="javascript:void(0);" onclick="restaurantdetails(2241938)">
+    Aguilar Branch New York Public Library </a>
+    </b>
+    <br>
+    180 E 110th St<br>
+    New York, NY<br>
+    Libraries<br>
 
     <div class="actions">
     <a href="javascript:void(0);" onclick="loginpopup('#')">
@@ -197,12 +265,33 @@
     <div style="float: right;" id="2241938"></div>
     <b>
     <a href="javascript:void(0);" onclick="restaurantdetails(2241938)">
-    CAFE BASIL GOURMET</a>
+    Aguilar Branch New York Public Library </a>
     </b>
     <br>
-    762-764 3 AVENUE<br>
-    MANHATTAN, NY<br>
-    American (New)<br>
+    180 E 110th St<br>
+    New York, NY<br>
+    Libraries<br>
+
+    <div class="actions">
+    <a href="javascript:void(0);" onclick="loginpopup('#')">
+    <img src="img/gtk-bookmark.png" width="30" align="bottom">Bookmark</a>
+    <a href="/food/create?idplace=2257308">
+    <img src="img/gtk-save.png" width="30" align="bottom">Create Event</a>
+    </div>
+    </div>
+
+    <!--Result Module -->
+
+        <div class="solidbox">
+    <div style="float: right;" id="2241938"></div>
+    <b>
+    <a href="javascript:void(0);" onclick="restaurantdetails(2241938)">
+    Aguilar Branch New York Public Library </a>
+    </b>
+    <br>
+    180 E 110th St<br>
+    New York, NY<br>
+    Libraries<br>
 
     <div class="actions">
     <a href="javascript:void(0);" onclick="loginpopup('#')">
@@ -218,12 +307,12 @@
     <div style="float: right;" id="2241938"></div>
     <b>
     <a href="javascript:void(0);" onclick="restaurantdetails(2241938)">
-    CAFE BASIL GOURMET</a>
+    Aguilar Branch New York Public Library </a>
     </b>
     <br>
-    762-764 3 AVENUE<br>
-    MANHATTAN, NY<br>
-    American (New)<br>
+    180 E 110th St<br>
+    New York, NY<br>
+    Libraries<br>
 
     <div class="actions">
     <a href="javascript:void(0);" onclick="loginpopup('#')">
@@ -235,66 +324,8 @@
 
     <!--Result Module -->
 
-    <div class="solidbox">
-    <div style="float: right;" id="2241938"></div>
-    <b>
-    <a href="javascript:void(0);" onclick="restaurantdetails(2241938)">
-    CAFE BASIL GOURMET</a>
-    </b>
-    <br>
-    762-764 3 AVENUE<br>
-    MANHATTAN, NY<br>
-    American (New)<br>
 
-    <div class="actions">
-    <a href="javascript:void(0);" onclick="loginpopup('#')">
-    <img src="img/gtk-bookmark.png" width="30" align="bottom">Bookmark</a>
-    <a href="/food/create?idplace=2257308">
-    <img src="img/gtk-save.png" width="30" align="bottom">Create Event</a>
-    </div>
-    </div>
 
-    <!--Result Module -->
-
-    <div class="solidbox">
-    <div style="float: right;" id="2241938"></div>
-    <b>
-    <a href="javascript:void(0);" onclick="restaurantdetails(2241938)">
-    CAFE BASIL GOURMET</a>
-    </b>
-    <br>
-    762-764 3 AVENUE<br>
-    MANHATTAN, NY<br>
-    American (New)<br>
-
-    <div class="actions">
-    <a href="javascript:void(0);" onclick="loginpopup('#')">
-    <img src="img/gtk-bookmark.png" width="30" align="bottom">Bookmark</a>
-    <a href="/food/create?idplace=2257308">
-    <img src="img/gtk-save.png" width="30" align="bottom">Create Event</a>
-    </div>
-    </div>
-
-    <!--Result Module -->
-
-    <div class="solidbox">
-    <div style="float: right;" id="2241938"></div>
-    <b>
-    <a href="javascript:void(0);" onclick="restaurantdetails(2241938)">
-    CAFE BASIL GOURMET</a>
-    </b>
-    <br>
-    762-764 3 AVENUE<br>
-    MANHATTAN, NY<br>
-    American (New)<br>
-
-    <div class="actions">
-    <a href="javascript:void(0);" onclick="loginpopup('#')">
-    <img src="img/gtk-bookmark.png" width="30" align="bottom">Bookmark</a>
-    <a href="/food/create?idplace=2257308">
-    <img src="img/gtk-save.png" width="30" align="bottom">Create Event</a>
-    </div>
-    </div>
 
 </div>
 
@@ -304,10 +335,18 @@
 </div>
     <div class="sideBar span5">
        <div class= "Mapbox">
-            <img src="http://maps.googleapis.com/maps/api/staticmap?center=40.7410000,-73.9800000&zoom=10&size=440x640&maptype=roadmap&markers=40.53222220000000,-74.20250000000000&markers=40.80944440000000,-73.96277780000000&markers=40.73000000000000,-73.87222220000000&markers=40.78750000000000,-73.95444440000000&markers=40.76527780000000,-73.95888890000000&markers=40.86111110000000,-73.89055560000000&markers=40.67861110000000,-73.91333330000000&markers=40.80861110000000,-73.96416670000000&markers=40.57649340000000,-74.20375550000000&markers=40.80065680000000,-73.81985630000000&sensor=false" class="img-polaroid Mapbox" style="width: 100%; height: auto;">
+            <img src="http://maps.googleapis.com/maps/api/staticmap?center=40.7410000,-73.9800000&amp;zoom=10&amp;size=440x640&amp;maptype=roadmap&amp;markers=40.79416670000000,-73.94361110000000&amp;markers=40.62833330000000,-73.98777780000000&amp;markers=40.59288270000000,-73.82013430000000&amp;markers=40.51111110000000,-74.24277780000000&amp;markers=40.77305560000000,-73.93027780000000&amp;markers=40.69916670000000,-73.83833330000000&amp;markers=40.74056000000000,-73.91944000000000&amp;markers=40.77785210000000,-73.98469830000000&amp;markers=40.65138890000000,-73.92194440000000&amp;markers=40.64472220000000,-74.07777780000000&amp;sensor=false" class="img-polaroid Mapbox" style="width: 100%; height: auto;">
       </div>
     </div>
   </div>
+</div>
+
+<footer class="footer">
+      <div class="container">
+<div style="padding-bottom: 2px;"> <a style="color: white;" href="/about/termsofuse">Terms of use</a> |  <a style="color: white;" href="/about/privacy">Privacy policy</a> |  <a style="color: white;"  href="/about/contactus">Contact us</a></div>
+      </div>
+    </footer>
+
 
       <!-- Le javascript
       ================================================== -->
